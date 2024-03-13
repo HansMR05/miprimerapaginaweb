@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primera Web</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c121ddd306.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://kit.fontawesome.com/c121ddd306.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header id="encabezado">
+      <a href="index.html"><i class="fa-solid fa-dragon"></i></a>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>   
+        <ul class="navbar">
+          <li><a class="navli" href="#index.html">Inicio</a></li>
+          <li><a class="navli" href="#acerca">Acerca de mi</a></li>
+          <li><a class="navli" href="#trabajo-container">Trabajos</a></li>
+          <li><a class="navli" href="#servicio">Servicio</a></li>
+          <li><a class="navli" href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+  <main id="seccion-principal">
+    <section class="seccion-1">
+      <div class="acerca-de">
+          <h2>Acerca de mi</h2>
+          <p> Bienvenidos a mi web</p>
+          <p>Hola me presento soy Ricardo Moreno y este espacio es un intento de mi primera página web que desarrollare en este curso. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam id harum repudiandae incidunt impedit nemo excepturi praesentium vel mollitia aliquid nihil molestiae minima velit dolor perspiciatis, est animi pariatur illum.
+          </p>
+      </div>
+      <div class="acerca-imagen">
+        <img src="img/profile.jpg" alt="profile" height="180" width="180">
+      </div>
+    </section>
+    <section class="seccion-2">
+        <img src="img/paisaje.jpeg" alt="otro" width="100%">
+    </section>
+    <section class="trabajo-container">
+      <h2 class="title-section">Trabajos</h2>
+      <div class="trabajos">
+         <div class="trabajo-item"> 
+            <img src="img/laguna69.jpeg" alt="trabajo_1" height="160px">
+            <h3>Trabajo 1</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde consectetur provident officia debitis, dolor id itaque reprehenderit rem, omnis quae veritatis? Praesentium enim aliquam deleniti maiores minima id cum eum!</p>
+            <a href="https://es.wikipedia.org/wiki/Laguna_69"> Leer mas</a>
+          </div> 
+          <div class="trabajo-item">
+            <img src="img/paisaje.jpeg" alt="laguna" height="160px">
+            <h3>Trabajo 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam labore, accusamus necessitatibus voluptas accusantium deserunt asperiores eos tenetur fugit eius repellendus commodi eum quia quisquam, dolorem atque eligendi obcaecati?</p>
+        <a href="#"> Leer mas</a>
+      </div>
+      <div class="trabajo-item">
+        <img src="img/rocotuyoc.jpeg" alt="trabajo_3" height="160px">
+          <h3>Trabajo 3</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim vel cum voluptates sint delectus ducimus aliquam, molestias atque mollitia aut autem corporis perspiciatis dolore error asperiores saepe numquam amet consequuntur? – Carhuaz</p>
+          <a href="#"> Leer mas</a>
+        </div>
+    </div>
+    </section>
+  </main>
+  <!-- PIE DE PAGINA / CONTACTO -->
+  <footer id="contacto">
+    <div class="form-header">
+      <h1>Contacto</h1>
+      <p><em>Atenderemos sus consultas</em></p>
+      <form action="" method="get" class="formulario" id="form">
+        <div class="form-row">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" />
+        </div>
+       <div class="form-row">
+        <label for="email">E mail</label>
+        <input id="email" name="email" type="email" placeholder="pepito@gmail.com"/>
+        </div>
+         <div class="form-row">
+       <label for="mensaje">Mensaje</label>
+       <textarea id="mensaje" name="mensaje"></textarea>
+       <div class="form-row">
+        <button>Enviar</button>
+       </div>
+       </div>
+      </form>
+    </div>
+    <div id="footer"> 
+      <h2 class="title-section">Redes Sociales</h2>
+    <ul>
+        <li><a href="#Facebook"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+        <li><a href="#LinkedIn "><i class="fa-brands fa-linkedin"></i>LinkedIn </a></li>
+        <li><a href="#Instagram"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+    </ul>
+    </div>
+    </footer>
+    <a id="fixed" target="_blank" href="#"><i class="fa-solid fa-phone"></i></a>
+    <script src="script.js" defer ></script>
+  </body>
+</html>
